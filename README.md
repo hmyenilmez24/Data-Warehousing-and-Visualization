@@ -12,11 +12,13 @@ Dataset: Austin Finance Online eCheckbook application
 
 
 Star Schema:
+
 ![StarSchema](https://github.com/hmyenilmez24/Data-Warehousing-and-Visualization/blob/master/images/StarSchema.png)
 
 
 
 Data cleansing and loading to Microsoft SQL Server with using Microsoft Visual Studio
+
 ![FactTable](https://github.com/hmyenilmez24/Data-Warehousing-and-Visualization/blob/master/images/FactTable.png)
 
 
@@ -24,6 +26,7 @@ Data cleansing and loading to Microsoft SQL Server with using Microsoft Visual S
 
 
 Visualisations with Rstudio:
+
 ![visual1](https://github.com/hmyenilmez24/Data-Warehousing-and-Visualization/blob/master/images/visual1.png)
 
 
@@ -47,6 +50,7 @@ Visualisations with Rstudio:
 
 
 -> Tabular Report
+
 ![Tabular Report](https://github.com/hmyenilmez24/Data-Warehousing-and-Visualization/blob/master/images/Tabular%20Report.png)
 
 
@@ -54,6 +58,7 @@ Visualisations with Rstudio:
 
 
 -> Matrix Report
+
 ![Matrix Report](https://github.com/hmyenilmez24/Data-Warehousing-and-Visualization/blob/master/images/Matrix%20Report.png)
 
 
@@ -61,12 +66,14 @@ Visualisations with Rstudio:
 
 
 -> Drilldown Report
+
 ![Drilldown Report](https://github.com/hmyenilmez24/Data-Warehousing-and-Visualization/blob/master/images/Drilldown%20Report.png)
 
 
 
 
 -> Report with sub-report
+
 ![Report with sub-report Report](https://github.com/hmyenilmez24/Data-Warehousing-and-Visualization/blob/master/images/Report%20with%20sub-report.png)
 
 
@@ -88,12 +95,14 @@ Table Names	            Labels
 Columns	                Properties
 
 -> Big Picture
+
 ![Big Picture](https://github.com/hmyenilmez24/Data-Warehousing-and-Visualization/blob/master/images/neo1.png)
 
 
 
 
 -> Data Selection
+
 ![Data Selection](https://github.com/hmyenilmez24/Data-Warehousing-and-Visualization/blob/master/images/neo2.png)
 
 
