@@ -1,0 +1,254 @@
+﻿FUND_ID,FUND_CD,FUND_NM
+1,1000,General Fund
+2,1004,General Fund Budget Stabilization Reserve Fund
+3,1005,General Fund One-Time Expenditure Fund
+4,1005,One-Time Expenditure Fund
+5,1020,General Fund Inventory Fund
+6,1115,1115 Medicaid Waiver
+7,1180,Tourism And Promotion Fund
+8,1200,Convention Center Repair and Replacement Fund
+9,1200,Convention Ctr Repair and Replacement
+10,1210,Convention Center Marketing and Promotion Fund
+11,1210,Convention Ctr Promotions
+12,3230,E-Transmission Capital
+13,3240,E-Distribution Substations Cap
+14,3250,E-Distribution Capital
+15,3260,E-Metering Capital
+16,3290,E-Support Services Capital
+17,3300,E-Capital Equipment Additions
+18,3310,E-Support Services Debt
+19,3840,W-Wtp #4 & Facilities   P04/84
+20,3920,W-Water Improvements
+21,3940,W-Water-Fee Supported Prj
+22,3960,Water Improvements--Nva
+23,3990,Water Reclamation Initv
+24,4010,Water Reclamation
+25,4180,W-Water Acquisitions - Cont Ob
+26,4240,W-System Expand And Improve
+27,4480,S-Wastewater Improvements
+28,4570,Wastewater Improvements--Nva
+29,4680,S-Wastewater Acquisitions Co
+30,4710,Public Works  Transportation CIP
+31,4730,Parking CIP
+32,4750,G-Golf Cip
+33,4800,ARR-Austin Resource Recovery Cip
+34,4800,Sw-Solid Waste Cip
+35,4850,Drainage Cip
+36,4910,ABIA Improvements
+37,4911,2013ABIA Construction RevBonds
+38,4912,2014 ABIA Construction RevBonds
+39,4913,2017 ABIA Construction RevBonds
+40,4922,Tchd Cip Projects
+41,4971,Waller Creek Tunnel
+42,4980,Town Lake/Comm Events P11/98
+43,5010,Austin Energy Fund
+44,5010,Electric Utility Operating Fnd
+45,5020,Austin Water Water Utility Operating Fund
+46,5020,Water Utility Operating Fnd
+47,5020,Water Utility Operating Fund
+48,5025,Austin Water Reclaimed Water Utility Operating Fun
+49,5025,Reclaimed Water Operating Fnd
+50,5025,Reclaimed Water Utility Operating Fund
+51,5030,Austin Water Wastewater Utility Operating Fund
+52,5030,Wastewater Utility Operating Fund
+53,5030,Wastewater Utlty Operating Fnd
+54,5040,Austin Resource Recovery
+55,5040,Austin Resource Recovery Fund
+56,5040,Solid Waste Services
+57,5060,Convention Center Operating
+58,5060,Convention Center Operating Fund
+59,5070,Airport Operating Fund
+60,5080,Golf Enterprise Operating Fund
+61,5080,Golf Fund
+62,5090,Development Services Fund
+63,5100,Drainage Utility Fund
+64,5110,Softball Enterprise Operating
+65,5120,Transportation Fund
+66,5125,Mobility Fund
+67,5130,Recreation Programs
+68,5140,Communications & Technology Mt
+69,5140,Communications and Technology Management Fund
+70,5150,Support Services Fund
+71,5150,Support Services Operating
+72,5220,Water Inventory Fund
+73,5270,Wireless Communication Services Fund
+74,5270,Wireless Communications Oper
+75,5280,Fleet Fund
+76,5280,Fleet Services Fund
+77,5290,General Svc Inventories
+78,5330,Gen Serv-Vehicle Acquisition
+79,5330,Vehicle Acquisition Fund
+80,5360,Radio Inventory
+81,5370,CTM - Technology Acquisition Fd
+82,5390,Transportation Inventory Fund
+83,5430,Convention Center Palmer Events Center Operating F
+84,5430,Palmer Events Ctr Operating
+85,5432,Convention Center Palmer Events Center Garage Fund
+86,5432,Palmer Events Ctr Garage
+87,5460,Capital Projects Management Fund
+88,5460,CIP Management  (CPM)
+89,5490,Comb Transp Emerg & Commun Ct
+90,5490,Combined Transportation Emergency & Communications
+91,5540,Electric Inventory Fund
+92,5610,Parking Fund
+93,5610,Parking Management Fund
+94,6000,US Department of Agriculture
+95,6001,Women/Infants/Children
+96,6015,National Science Foundation Grants
+97,6030,US Dept of Commerce
+98,6060,US Department of Justice
+99,6090,US Department of Transportation
+100,6110,US Health & Human Services
+101,6112,Public Health Emergency Preparedness
+102,6113,Youth of Promise Initiative
+103,6114,US HHS-Immunization Outreach
+104,6115,Title V-CHS Population 08-09
+105,6116,Refugee Health Services
+106,6117,Title V Obesity Prevention
+107,6118,Community Services Block Grant
+108,6119,Ryan White Part C
+109,6120,US Dept of Homeland Security
+110,6121,Tuberculosis Outreach
+111,6122,HIV Surveillance
+112,6123,HIV Prevention
+113,6124,STD Control
+114,6125,Ryan White Part A HIV/AIDS
+115,6126,PHEP - Discretionary Fund Projects
+116,6127,ARRA - CSBG
+117,6128,Public Health Emergency Response
+118,6130,US Housing/Urban Development
+119,6131,Emergency Shelter Grant 2008-10
+120,6133,US Housing/Urban Development CDBG
+121,6134,US Housing/Urban Development HOME
+122,6137,Neighborhood Stabilization Program
+123,6138,Healthy Adolescent-US HHS
+124,6139,Influenza Incidence Surveillance Project
+125,6140,US National Foundation on the Arts and Humanities
+126,6141,US Housing/Urban Development-Lead
+127,6144,US Housing/Urban Development-CDBG
+128,6145,US Housing/Urban Development-HOME
+129,6146,US HUD-Office of Sustainable Housing and Communiti
+130,6170,Institute of Museum and Library Services
+131,6200,Community Diabetes Projects
+132,6201,Community Diabetes Proj-FY08-09
+133,6220,PARD Private Grant
+134,6230,Safe Routes to School Program
+135,6240,Tobacco Prevention and Control Coalition Program
+136,6241,ARRA - Tobacco Prevention
+137,6243,Community Transformation Grant
+138,6500,Texas Governor's Office
+139,6510,Dept of State Health Services
+140,6511,TDSHS-Governors Advisory Council on Physical Fitne
+141,6512,Regional & Local Services Selection
+142,6513,TX SHS-TB Prevention & Control
+143,6550,Texas Health and Human Services Commission
+144,6560,Parks and Wildlife
+145,6570,Texas Department of Transportation
+146,6571,Texas Department of Motor Vehicles
+147,6580,Texas State Library and Archives Commission
+148,6631,MMRS PROGRAM SUPPORT 03
+149,6710,Capital Area Trauma Regional Advisory Council
+150,6720,Capital Area Food Bank
+151,6730,National Film Preservation Foundation
+152,6800,Public/Private Ventures
+153,6801,Americas Promise Alliance
+154,6840,Austin Downtown Alliance
+155,6920,Austin Energy Enterprise Grants
+156,7010,Housing Fund
+157,7010,Neighborhood Housing and Community Development Fun
+158,7023,EMS Travis Co Reimbursed Fund
+159,7026,I-35 Parking Program Fund
+160,7027,Science Fest
+161,7029,City Hall
+162,7029,City Hall Fund
+163,7035,Animal Services Fund
+164,7050,Austin Code Fund
+165,7050,Code Compliance
+166,7110,Austin Cable Access
+167,7110,Austin Cable Access Fund
+168,7130,Police Benefit Fund
+169,7140,Employee Benefits Fund
+170,7170,Townlake Fund
+171,7240,Special Library
+172,7310,Austin Crks & Trails Fund
+173,7340,Planting For The Future Fund
+174,7350,Teen Activity Fund
+175,7430,Trustee-Ellis Library Fund
+176,7450,Austin History Center
+177,7470,Economic Development Fund
+178,7591,Housing Assistance Unrestricte
+179,7610,Summer Musical
+180,7620,Pard Miscellaneous T & A
+181,7650,Energy Conserv Rebates & Incen
+182,7655,Urban Forest Replenishment Fund
+183,7695,Friends of APL
+184,7731,Auto Theft Interdiction Seizur
+185,7740,APD State Forfeiture Contraband
+186,7740,Police State Contraband Asset Forfeiture Fund
+187,7790,Child Safety Fund
+188,7860,ARIC Sustainability
+189,7870,APD-Dept of Treasury Forfeiture Fund
+190,7870,Police Federal Department of Treasury Asset Forfei
+191,7871,APD-Dept of Justice Forfeiture Fund
+192,7871,Police Federal Department of Justice Asset Forfeit
+193,7872,APD Incident Management Prog
+194,7875,PARD Police Asset Forfeitures
+195,7890,Austin Transportation Study
+196,7890,CAMPO (formerly ATS)
+197,7912,Second Street Tax Increment Financing Fund
+198,7921,Primary Care Dept Pharmacy
+199,7950,Fire Miscellaneous
+200,7960,Austin Water Wildland Conservation Fund
+201,7960,Wildland Conservatn (Was BCCP)
+202,7ADA,Court Building Security Fund
+203,7ADA,Municipal Court Building Security Fund
+204,7AFA,HHS Travis Co Reimbursed Fund
+205,7APA,Municipal Court Technology Fd
+206,7APA,Municipal Court Technology Fund
+207,7CAM,Rutherford Lane Facility
+208,7CAM,Rutherford Lane Facility Fund
+209,7JCM,Juvenile Case Mgr Fund
+210,7JCM,Municipal Court Juvenile Case Manager Fund
+211,7THD,CCS Ops - Travis Co Hosp Dist
+212,7TSF,Traffic Safety Fund
+213,8071,GCP-Transp Mobility Impv P1/00
+214,8101,GCP-Library & Cul Ctr P4/98
+215,8112,GCP-Transportation P12/2012
+216,8114,GCP-Parks P14/2012
+217,8116,GCP-Public Safety P16/2012
+218,8118,GCP-Library & Cultural P18/2012
+219,8119,GCP-Mobility P1/2016
+220,8123,GCP-Parks PC/2018
+221,8180,GCP-Police/Courts Bond Fund
+222,8181,GCP-Mobility P1/2010
+223,8250,GCP-Street Imp 84 Auth P18
+224,8260,GCP-Fire Impvts 84 Auth P27
+225,8340,GCP-Cultural Arts 1985 Auth
+226,8400,GCP-Tpsd General Improvements
+227,8405,GCP-NPZ General
+228,8410,GCP-Library Automation System
+229,8560,GCP-General Govt Proj
+230,8561,GCP-Capital Rehabilition Fund
+231,8570,GCP-Health Misc Projects
+232,8581,GCP-CMTA Mobility
+233,8601,GCP-Transportation P1/2006
+234,8603,GCP-Parks P3/2006
+235,8604,GCP-Cultural Facilities P4/2006
+236,8606,GCP-Central Library P6/2006
+237,8607,GCP-Public Safety P7/2006
+238,8640,GCP-Capital Reserve
+239,8641,GGCIP - Communications and Technology Mgmt
+240,8700,GCP-Radio Trunking-97 P1
+241,8720,GCP-Parkland Dedication Improv
+242,8721,GCP-PLD in Lieu of Fee
+243,8740,GCP-PARD--Infrastructure
+244,8741,GGCIP - Parks and Recreation
+245,8760,GCP-Golf
+246,8780,GCP-Trans St Signals P1/98
+247,8870,GCP-Fleet General Improvements
+248,8900,GCP-Auditorium
+249,8921,GCP-Parks Land & Fac P2/98
+250,8931,GCP-Public Safety Fac P3/98
+251,8940,GCP-Fire-General
+252,8950,GCP-Public Works-Grants
+253,8960,Wtrshd Protectn Annexed Areas

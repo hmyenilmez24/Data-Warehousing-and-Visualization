@@ -1,0 +1,576 @@
+﻿DIV_ID,DIV_CD,DIV_NM
+1,100,Animal Shelter Improvements
+2,100,Capital Equipment
+3,100,Coa Telecommunications Network
+4,1000,Building Renovations & Improvements
+5,1000,New Central Library
+6,1001,New Central Library AIPP
+7,1008,STPMM Signals
+8,101,Equipment Purchase from Critical One Time
+9,1013,Golf Course - CO 2015
+10,1015,Bike Share - Private Match
+11,1016,Water Impvs Citywide
+12,1019,Water Future Projects Unfunded
+13,1035,LCRA Facility Renovation
+14,1040,Alexandria Dr. - District 8
+15,109,Facility Park and Trail Improvements
+16,10PL,Parks Planning Development & Operations
+17,10PL,Planning
+18,110,Greenways
+19,1100,Animal Services Center
+20,1100,Neighborhood Enhancement Proje
+21,1121,Colony Park Rec Ctr-Co'S
+22,115,Johnny Morris Rd Tennis Center
+23,11AA,Neighborhood-Based Policing
+24,11AQ,Aquatics
+25,120,Destination Parks
+26,12GT,Golf and Tennis
+27,13,Evidence Storage Warehouse
+28,130,Colorado River Park
+29,1321,Travel Time Sensors
+30,133,Sparky Park
+31,139,Walnut Creek Trail
+32,14,AMANDA
+33,14,DVV System
+34,1455,Delete - Do Not Use
+35,150,Property Acquisition & Improve
+36,158,Veloway Trail Improvements
+37,1615,183/Pond Springs-620 (Signals)
+38,166,Carver Museum Lighting
+39,1687,Traffic Safety Bicycle Lights
+40,1688,Bike Share/Bike Safety
+41,1BIP,Building Inspections & Trade Permits
+42,1BPR,Building Plan Review
+43,1CCI,Case Investigation
+44,1CCI,Investigations and Compliance
+45,1CFD,Fully Funded by City - Employee/Retiree
+46,1CFO,Office of the Chief Financial Officer
+47,1CTM,Communications and Technology Management
+48,1CTP,Community Tree Preservation
+49,1DAC,Development Assistance Center
+50,1EPR,Employee Relations
+51,1H2O,Water Conservation
+52,1HRM,Human Resources Management Services
+53,1HSG,Housing
+54,1IMG,Asset and Facility Management
+55,1IMG,Infrastructure Management
+56,1LFO,Landfill
+57,1LFO,Landfill Closure
+58,1LFO,Remediation
+59,1LUR,Land Use Review
+60,1NCD,Community Development
+61,1PP1,Park Public Safety
+62,1PSM,Power Generation Market Operations & Resource Plan
+63,1PSM,Power Supply & Market Operations
+64,1SSI,Site and Subdivision Inspections
+65,1SSP,One Stop Shop
+66,1SSR,Site and Subdivision Review
+67,1TRF,Highway Enforcement
+68,1WIR,Wireless Communication Services
+69,200,Ccsd - Comm & Tech
+70,2000,2010 P1 - $27.88M Parent
+71,2000,Building Renovations & Improvements Parent
+72,2000,DO NOT USE
+73,2000,Great Streets - Developer Reimbursements
+74,2000,Inventory
+75,2000,IT Improvement Projects
+76,2000,Library Direct Expense
+77,2000,Tourism and Promotion Contracts
+78,2007,Bikeway & Related Facilities
+79,2016,Wastewater Impvs City Wide
+80,2017,Wastewater Future Projects Unf
+81,2026,Trnsprtn Systm Mgmt Imprvmts
+82,204,Morris Williams Grounds Improv
+83,209,Morris Williams Maintenance Barn
+84,2100,Drainage Master Plan Parent-DUF
+85,2100,Police Benefit Trust
+86,2100,Street Imprs. P1/98 $28.755 M
+87,2140,Summer Musical Expenses
+88,2180,Intersection Capacity Imprvs T
+89,221,Mobile Data System
+90,222,9-1-1 Backup
+91,223,Public Safety Mdc Commun Upgrd
+92,22IH,Indigent Health Managed Care
+93,22PC,Clinic Based Care
+94,22PS,Patient Care Support Services
+95,250,Ccsd - Building Maintenance
+96,250,Critical Technology Replace
+97,255,Service Center #3 Refurbishmt
+98,257,Fleet Facility Improvements
+99,258,Fuel Island Automation (Tcip)
+100,262,Vehicle database upgrade to M5
+101,264,Environmental Assessment/Compliance
+102,266,Police Patrol Sedans
+103,2900,Fy2001 Transmission Parent
+104,2ANL,Animal Services
+105,2ANL,Animal Services Office
+106,2AP2,Airport Public Safety
+107,2BUD,Budget Office
+108,2CDE,Community Development
+109,2CFS,Fire / Emergency Response
+110,2CLR,Licensing and Registration Compliance
+111,2CMS,Community Services
+112,2CNT,Controllers Office
+113,2CNT,Controller's Office
+114,2COP,Comprehensive Planning
+115,2COP,Long Range Planning
+116,2CPD,Capital Projects Delivery
+117,2CPO,Capital Planning Office
+118,2CPO,Corridor Program Office
+119,2CRO,Civil Rights
+120,2CUL,Cultural Arts
+121,2CUL,Cultural Arts and Contracts
+122,2ESD,Electric Service Delivery
+123,2EVT,Event Operations
+124,2FAC,CTECC
+125,2FAC,CTECC and Public Safety IT Support
+126,2GIS,Global Business Recruitment and Expansion
+127,2GRA,Grant Administration
+128,2HDA,Housing Developer Assistance
+129,2HDE,Housing Development
+130,2HOA,Homeowner Assistance
+131,2MUS,Music and Entertainment Division
+132,2MUS,Music Division
+133,2OPM,Office of Performance Management
+134,2PAY,Collection Services
+135,2PAY,Pay As You Throw
+136,2PBS,Public Services
+137,2PMM,Program Management
+138,2RDS,Economic Development
+139,2RDS,Redevelopment
+140,2RDV,Organization Development
+141,2SPM,Street Preventive Maintenance
+142,3,New City Hall Technology
+143,3000,Department Initiatives-Parent Unit
+144,3000,Pool Renovations & Improvements
+145,3010,Pool Renovations & Improvements
+146,302,Annexation Related Sta Parent
+147,3020,Parkland Mitigation
+148,3026,Central Austin Youth League Concession
+149,3050,Abia Improvements Parent
+150,3056,Turner Roberts Pavillion
+151,3057,Turner Roberts Repairs
+152,3066,Gus Garcia Park
+153,3067,Walter E. Long Boat Launch
+154,307,Avery Ranch Fire Station
+155,3070,Neighborhood Partnering Program
+156,3075,Morris Williams Golf Course
+157,3087,Colony Park District Park
+158,3101,Fy2001 Distribution Parent
+159,3104,Other 3920 Parent
+160,3104,Other 4480 Parent
+161,3106,Pump Station 3920 Parent
+162,3107,Pump Station 3960 Parent
+163,3108,Rehabilitation 3920 parent
+164,3108,Rehabilitation 4480 parent
+165,3109,Rehabilitation 3960 parent
+166,3116,Treatment Plant 3920 Parent
+167,3116,Treatment Plant 4480 Parent
+168,3117,Northwest Pool Repairs
+169,3117,Treatment Plant 3960 Parent
+170,3118,PARD Block Grant
+171,3118,Wastewater Collection 4480 Parent
+172,3121,Water Reclamation Initiative 3960 Parent
+173,3138,Circle C Metro Park - Recycling Challenge Improvem
+174,3140,Counil Year-end Budget Allocation
+175,3154,Hotel Occupancy Tax-Supported Improvements
+176,3164,Council Budget Year-End Budget Allocation
+177,3176,Colony District Park - General Park Improvements
+178,3200,Town Lake T&A Funding
+179,33,Mueller Airport Station #33
+180,35,Fire Training Facility Ph Ii
+181,3700,Playscape Reno Parent
+182,3776,University of Texas Robert B. Rowling Hall
+183,3794,Delete - Do Not Use
+184,39,Shoal Creek Trail
+185,3BRG,Bridge Maintenance
+186,3CDL,Materials Management Services
+187,3CDP,Communicable Disease
+188,3CDP,Communicable Diseases
+189,3COS,Emergency Communications
+190,3COS,Emergency Communications & Ops. Support
+191,3CRH,Community Relations and Health Equity
+192,3CRH,Health Equity and Community Engagement
+193,3CUP,Current Planning
+194,3DES,Customer Energy Solutions
+195,3DES,Distributed Energy Services
+196,3HUM,Human Services
+197,3INV,Investigations
+198,3MCH,Maternal Child & Adolescent Health
+199,3MS3,Office of the City Marshal
+200,3OPS,Operational Support
+201,3PMM,Program Management
+202,3PST,Operations
+203,3PUR,Purchasing Office
+204,3QSM,Quality & Standards Management
+205,3SNO,Customer Relationship Management
+206,3SNO,IT Operations
+207,3SPT,Operations Support
+208,3SRP,Street Repair
+209,3TCP,Total Compensation
+210,3TEN,Transportation Enhancement
+211,3TEN,Transportation Planning
+212,3TEN,Transportation Planning & Design
+213,3TEN,Transportation Project Development
+214,3TRC,Traffic Controls
+215,3TRC,Traffic Management
+216,4000,Fy2001 Distribution Subst Par
+217,4000,Other-Parent Unit
+218,4003,Convention Center Improvements
+219,401,Fire/Ems Station #44-Circle C
+220,402,Public Safety Training Facility
+221,4020,Morris Williams PSV & ARV
+222,4050,Capital Equipment-Parent
+223,406,Womens Locker Room Addtn-Ph 3
+224,4060,Hancock GC Irrigation System & Reimb
+225,407,Womens Locker Room Addtn-Ph 4
+226,4100,Stormsewer Improvements
+227,4133,51st Street Tank - Chlorine Analyzer
+228,4136,Hergotz Bulk Fill Station Drainage Ditch
+229,414,Cepeda Music Garden Project
+230,416,SE Austin Community Branch Improvements
+231,417,New Central Library Improvements
+232,41PP,Mayor/Council
+233,42GR,Government Relations
+234,44CM,City Manager's Office
+235,44EM,Emergency Management
+236,44EO,Equity Office
+237,44HS,Homeland Security and Emergency Management
+238,44IG,Intergovernmental Relations Office
+239,44IN,Innovation Office
+240,44LR,Labor Relations Office
+241,44MD,Office of the Medical Director
+242,44MI,Management Initiatives
+243,44MS,Management Services
+244,44PM,Office of the Police Monitor
+245,44PS,Public Safety Corporate Support
+246,44SO,Sustainability Office
+247,44YD,Youth Services
+248,450,2006 P4 - $31.5M Parent
+249,45EL,Elections
+250,45RS,Austin Records and Information Management
+251,45RS,Austin Records Management
+252,4671,SAR HVAC Replacements
+253,4719,SCADA Cyber Security Remediation
+254,4730,Wc Wwtp Lab & Adm Bldg Hvac-P1
+255,4740,IDIQ-Howard Lane Pump Station
+256,4746,SAR WWTP Plant Control System Upgrade
+257,4808,Webberville Stores Security Upgrade
+258,4811,Oakmont Blvd Improvements (CRS)
+259,4834,Waller Creek Center Parking Garage improvements
+260,4857,South Austin Regional WWTP Gas Meter and Sensor Re
+261,4875,Waller Creek Center Controls - Wastewater
+262,4882,Hornsby Bend Security Access System Upgrade
+263,4899,Sludge Line Emergency Rehab
+264,4906,Walnut Creek WWTP Non-Penetrating Safety Railing f
+265,4909,Waller Creek Center - 9th Floor Renovation
+266,4911,SCADA - Wastewater Treatment Plants
+267,4925,Ww - 1304 S 3rd Street
+268,4944,Theresa Ave Manhole Installation
+269,4989,Scada Data Mart And Data Warehouse Replacement
+270,4991,Collaboration 2023
+271,4BAS,Business Applications Support
+272,4CRC,Concrete Repair & Construction
+273,4CRC,Minor Construction and Repair
+274,4CUS,Customer Care
+275,4DAP,Urban Design
+276,4EHS,Environmental and Consumer Health
+277,4EHS,Environmental Health Services
+278,4ESW,Employee Development and Wellness
+279,4ESW,Employee Development Safety and Wellness
+280,4ESW,Employee Safety and Wellness
+281,4FOP,Facilities Management Operations and Airport Secur
+282,4LAB,Litter Abatement
+283,4LPM,Leasing and Real Property Management
+284,4LPM,Office of Real Estate Management
+285,4LPM,Office of Real Estate Services
+286,4NRP,Natural Resource Management
+287,4PEM,Mobility Systems Management
+288,4PEM,Parking Enterprise
+289,4PRV,Emergency Prevention
+290,4PUB,Municipal Court Operations
+291,4SEC,Security
+292,4TED,Outcomes and Performance Improvement
+293,4TED,Professional Practice and Standards
+294,4TED,Safety and Performance Improvement
+295,4URB,Design and Preservation
+296,50,Animal Shelter
+297,50,Critical Technology Replace
+298,50,Library Facility Impvs
+299,5000,Development Review Surcharge
+300,5000,Trunked Radio-Parent
+301,5000,Waller Tun.-See 4971-827-7000
+302,5010,Deferred Maintenance
+303,5011,Water Services & Meters-3940
+304,5019,Austin Lakes - Plant Cntrl
+305,502,Solid Waste Support Facilites
+306,5027,Walnut Crk Wwtp Security Improvs
+307,5029,Pipeline Inspection System Upgrade - Wastewater
+308,5063,Waller Creek Center 6th Floor Renovation
+309,507,Landfill Capital Requirements
+310,5080,Fy2001 Customer Service Parent
+311,5100,2006 P1 - $103.1M Parent
+312,5101,Fy2001 Support Services Parent
+313,5122,Wireless Network Installations
+314,5130,Geographic Information System Equipment (Fy19-23)
+315,514,Technicenter
+316,5144,Pc Refresh (Fy19-24)
+317,534,HRMIS Gap Analysis
+318,55,Palmer Events Center Renovatns
+319,550,Business Intelligence Tool
+320,5500,2000 Bonds Bike Projects
+321,551,eCAPRIS Enhancements
+322,553,Financial Systems
+323,560,Zilker Improvements
+324,595,Zachary Scott Theatre Ph I
+325,59CM,Communications
+326,59VP,Video Production Services
+327,59WG,Web Development
+328,5ADR,Advocacy and Dispute Resolution
+329,5APP,IT Projects and Development
+330,5APP,Strategy and Planning
+331,5BSV,Billing Services
+332,5CPP,Capital Contracting Office
+333,5CPP,Contract Admin. & Professional Services Procuremen
+334,5CPP,Contract Procurement
+335,5CPP,Contract Services
+336,5DAC,Downtown Austin Community Court
+337,5DPH,Disease Prevention & Health Promotion
+338,5DPH,Disease Prevention and Health Promotion
+339,5DVS,Waste Diversion
+340,5FSP,Facility Services
+341,5FSP,Maintenance
+342,5FSP,Maintenance Services
+343,5HLC,Health Promotion & Disease Prevention
+344,5LGL,Legal Services
+345,5OPA,Opinions and Advice
+346,5OPS,Operations Support
+347,5PIA,Citywide Public Information Requests
+348,5PUB,Public Health
+349,5RWM,Off-Street Right-Of-Way Maintenance
+350,5RWM,Right-of-Way Maintenance
+351,600,Capital Equipment and Vehicles
+352,6000,1998/P4 Library Fac. Parent
+353,6000,Bmp Construction-Urban Watrshd
+354,601,FY17 PLD Load
+355,6101,Town Lake Park PH 3-4
+356,6125,GBSC Roof Top Unit Replacement
+357,6126,Webberville - Chiller - Refrigerant Monitor
+358,6127,GBSC-Radio Console & Modular Sys Replmt
+359,6186,So. Svc Ctr-Boiler Replacement
+360,6196,Ullrich Rekeying Project
+361,6300,2006 P3 - $84.7M Parent
+362,6385,Deploy ESAS at WTP4
+363,6396,RA - Prado/Garwood Water Line Replacement
+364,6397,RA - Allen Street Water Line Replacement
+365,6398,RA - Bengston and Kay Water Line Replacement
+366,6399,RA - Cherico/Sellers Water Line Replacements
+367,63EC,Stream Restoration
+368,63FC,Flood Hazard Mitigation
+369,63FC,Flood Risk Reduction
+370,63MP,Master Planning
+371,63MP,Watershed Policy and Planning
+372,63WM,Infrastructure & Waterway Maintenance
+373,63WP,Watershed Policy
+374,63WQ,Water Quality Protection
+375,640,PLD Load - PLD Fee in Lieu of Land
+376,6416,RA - Garwood Street Water Line Replacement
+377,6430,RA - Marathon Blvd - 42nd to 45th - Water Line Rep
+378,6441,RA - Thames Drive Water Line Upgrade
+379,6469,Meter Upgrades-3-in diameter and larger
+380,6476,Oakmont Blvd WL Imrpvoements - CRS
+381,6477,Arroyo Seco WL Imrpvoements - CRS
+382,6480,Highland Park Improvements
+383,6485,Jim Hogg Ave to Arroyo Secon-CRS
+384,6495,Reicher Ranch Septic System
+385,6500,Ra E 49th Street Crs Project A
+386,6504,Sunset Lane Water Line Extension CRS
+387,6518,Turnabout Lane Relocation(CRS)
+388,6529,Suburban Dr. Water Service Line (WSL) Relays
+389,6532,Webberville Stores Security Upgrade
+390,654,Dittmar Enclosure
+391,6542,Oakhurst Avenue Waterline Rehabilitation
+392,6551,Waller Creek Center Parking Garage improvements
+393,6582,Slaughter Lane Waterline Extension
+394,6588,Waller Creek Center Controls - Water
+395,6593,South Service Center HVAC Rehab
+396,6597,Abingdon Waterline Replacement - Renew Austin
+397,6614,Tejas Trail Waterline Replacement - Renew Austin
+398,6615,Periwinkle Path Waterline Replacement - Renew Aust
+399,6619,Waller Creek Center - 9th Floor Renovation
+400,6620,SCADA - Water Treatment Plants
+401,6658,Ann and Maye Place Water Improvements
+402,6668,Willow Street Water Line Renewal
+403,6674,Creedmoor Drive Water Pipeline Replacement
+404,6683,Maintenance Shop A/C Replacement
+405,6688,Davis WTP - Low Service Building HVAC Replacement
+406,6CAS,Cultural Arts Services
+407,6CDE,Community Relations and Injury Prevention
+408,6CSF,Child Safety
+409,6EMD,Office of the Medical Director
+410,6ENG,Airport Planning & Development
+411,6JUD,Court Judiciary
+412,6JUD,Judiciary
+413,6OMD,Office of the Medical Director
+414,6OPS,Operations Support
+415,6SOC,Social Services Contracts
+416,6TRE,Treasury Office
+417,7000,Purchasing Office-Inventory
+418,7004,Fews Upgrades
+419,7007,IT Needs
+420,7010,Vehicles & Equipment Needs
+421,7065,Gis 2006
+422,7066,Cmms Hansen
+423,7069,It Network Improvements
+424,7072,IT Platform
+425,7074,AWU Phone Switch Replacement-GAATN
+426,7100,Low Water Crossing Gates
+427,7166,Ullrich Wtp Expansion Contract 4
+428,7173,Wtp #4 Environmental Commiss 3840
+429,7177,Water Treatment Plant #4
+430,7200,Waller Creek Tunnel
+431,735,Morris Williams Golf Cvs Irr
+432,740,Grey Rock Facility Purchase
+433,7608,So. IH35 Water Infrastructure Improvs PMC
+434,76DM,Data Management
+435,7950,Waller: Security Operation Center's Build-Out
+436,7AUD,Corporate Risk Services
+437,7BDS,Small Business Development
+438,7BDS,Small Business Program
+439,7BKP,Bicycle and Pedestrian Infrastructure
+440,7BLD,Building Services
+441,7BRF,Brownfields
+442,7BRF,Brownfields Redevelopment
+443,7BUS,Business Services
+444,7CDE,Code Compliance
+445,7CDE,Code Enforcement
+446,7CRS,Community Services
+447,7EMP,Employment Services
+448,7EPI,Epidemiology and Public Health Preparedness
+449,7MBE,MBE/WBE Procurement Ordinance
+450,7MCS,Court Security
+451,7MJC,Youth Case Management
+452,7MSP,Municipal Court Special Programs
+453,7SDW,Sidewalk Infrastructure Program
+454,7SOC,Social Services
+455,7SVC,Fleet Service Centers
+456,7SVC,Service Centers
+457,7TAR,Telecommunications and Regulatory Affairs
+458,7TPE,COA Networks
+459,7TPE,Enterprise Infrastructure Management
+460,7TSF,Red Light Camera Traffic Safety
+461,7URB,Urban Trails
+462,8,Building Maintenance-Parent
+463,800,Misc. Course Imprs. - Parent
+464,8000,City-Wide Erosion Cntrl Progrm
+465,8000,Planning
+466,8000,Pld Zone 10
+467,8004,Capital Equipment and Vehicles
+468,801,Fire/Ems Station#43-Del Valle
+469,8010,Traffic Calming
+470,8012,Code Next
+471,8012,Vehicles & Equipment
+472,8013,Scada Data Mart And Data Warehouse Replacement
+473,8014,Collaboration 2023
+474,8018,Vacuum Truck TV-Software
+475,802,Harris Ridge Fire/Ems Station
+476,8030,Pipeline Inspection System Upgrade - Water
+477,8030,Trans Init/Intersect Improve
+478,8036,Atlanta And Foster Waterline Improvements
+479,8054,Fews Upgrades
+480,8054,Waller Creek Center 6th Floor Renovation
+481,8060,Tanglewood Trail Water Pipeline Renewal
+482,8065,Cmms Hansen
+483,8066,Gis
+484,8069,It Network Improvements
+485,8070,IT Platform
+486,8072,AWU Phone Switch Replacement-COATN
+487,8100,Pld Zone 1
+488,8106,4321 City Park Rd 8 Inch Water Line Extension
+489,8106,Dessau Wwtp Rehab
+490,8107,5503 Lakemoore Dr Water Line Extension
+491,8110,Public Works Facility Renovations
+492,8118,Hornsby Bend Biogas Energy Project
+493,8126,Public Works Facilities
+494,8133,Wireless Network Installations
+495,8137,Geographic Information System Equipment (Fy19-23)
+496,8144,Pc Refresh (Fy19-24)
+497,8167,HB HVAC Controls
+498,819,Course Improvements
+499,81AA,Professional Standards
+500,8200,2010 P1 - $62.12M Parent
+501,8231,LS Telemetry-Top End & Con Replacement
+502,837,PARD CO Parent Account
+503,8400,Pld Zone 4
+504,8500,Pld Zone 5
+505,8537,Roy G Guerrero Colorado River Park - Bridge Replac
+506,8549,Four Points Center LS #3 Pump Improvs
+507,8600,Pld Zone 6
+508,8677,AWU Capital Vehicles-Water
+509,8677,AWU Capital Vehicles-WW
+510,8700,Pld Zone 7
+511,8800,Pld Zone 8
+512,8900,Pld Zone 9
+513,8993,Laboratory Info Mgmt System
+514,8999,Technology Improvements - CPMF
+515,8CMS,Community Services
+516,8CSS,Community Services
+517,8NPP,Neighborhood Partnering Program
+518,8OSS,Operational Services
+519,8VSS,Vehicle Services
+520,8VSS,Vehicle Services and Emerging Technologies
+521,8VSS,Vehicle Support Services
+522,8VTL,Vital Records
+523,9,PARD Online Registration
+524,90,Renovation & Relocations
+525,9000,Non-Urban Watersheds Retrofits
+526,9001,Technology Improvements
+527,9020,Parking Meter Replacements
+528,9024,Pay Station Parking Meter Replacement
+529,9040,Parking Initiatives
+530,9040,Technology Improvements - PWTF
+531,9050,Street Improvements
+532,9050,Transportation Initiatives
+533,9100,Cmta - 1/4 Cent Parent
+534,9109,Waller: Security Operation Center's Build-Out
+535,9147,GBSC Roof Top Unit Replacement
+536,9148,Webberville - Chiller - Refrigerant Monitor
+537,9149,GBSC-Radio Console & Modular Sys Replmt
+538,92,Gus Garcia Rec Ctr
+539,9200,Cmta - Bga Parent (Tpas)
+540,9400,Cap Equip Addtns Annexed Areas
+541,951,Wtp #4 Water Treatment Plant
+542,992,ARCH Repairs
+543,9950,Golf Surcharge
+544,9MGT,Strategic Operations
+545,9MGT,Support Services
+546,9TEC,Technology Surcharge
+547,9TRQ,Transfers & Other Requirements
+548,9TRQ,Transfers and Other Requirements
+549,A001,AFD CIP 2012 Bond
+550,A001,ATD CIP 2012 Bond
+551,A001,Library CIP 2012 Bond
+552,A001,PARD 2012 Bond
+553,A001,PW CIP 2012 Bond
+554,A050,Improvements Parent - 2013 Revenue Bonds
+555,C001,PARD 2018 Bond Prop C
+556,C050,2014 ABIA Revenue Bond
+557,D052,Non - Alternative Min Tax (AMT)
+558,ENGR,Engineering Services
+559,FT00,Fleet Technologies
+560,G002,"Grant - Austin Nature and Science Center Climbing "
+561,L200,Urban Trails
+562,NVAC,Environmental Affairs & Conservation
+563,OPRS,Operations
+564,OTHR,Other Utility Program Requirements
+565,POPS,Pipeline Operations
+566,Q000,CMTA 1/4 Cent - $21.8M Parent
+567,RWSV,Reclaimed Water Services
+568,T001,TASK 1 ADMINSTRATION
+569,T002,TASK 2 DATA DEVELOPMENT & MAINT
+570,TARA,Telcommunications and Regulatory Affairs
+571,TRMT,Treatment
+572,V001,Equipment and Vehicles
+573,V014,FY18 VA-GF-Parent
+574,WRMT,Water Resources Management
+575,ZZZZ,Miscellaneous

@@ -1,0 +1,84 @@
+﻿OBJ_ID,OBJ_CD,OBJ_NM
+1,7100,Purch.card costs to reclassify
+2,7102,Agricultural/horticultural
+3,7103,Explosives/blasting
+4,7114,Const/repair material-other
+5,7116,Asphalt
+6,7117,Cement/concrete
+7,7118,Storm drainage
+8,7119,Sand/gravel/stone
+9,7121,Street/traff signs/mrkr/pos
+10,7122,Hardware/wire/steel
+11,7123,Building material
+12,7124,Paint/painting supplies
+13,7126,Bridges/carousels
+14,7127,Electrical/lighting
+15,7128,Welding supplies
+16,7129,Refrigerant components-HVAC
+17,7132,Pipes and fittings
+18,7133,Valves
+19,7134,Chemicals
+20,7135,Household/cleaning supplies
+21,7136,Fuel-auxiliary equipment
+22,7139,Equipment-chillers
+23,7141,Boiler equipment
+24,7144,Electrical transformers
+25,7145,Elctrcal conductors-wire&cable
+26,7146,Elctrcal conductors-hardware
+27,7147,Poles wood
+28,7148,Poles towers steel
+29,7149,Poles streetlight
+30,7150,Fuses and fusing apparatus
+31,7151,Relays and relaying equipment
+32,7152,Microwave & microwave equipmnt
+33,7153,Luminaires & streetlight equip
+34,7154,Capacitors
+35,7155,Pull boxessvc boxesmanholes
+36,7156,Electrical switchgear
+37,7157,Fibre-optic
+38,7245,Radio equipment
+39,7269,Raw water - purchased
+40,7310,Gasoline/oil/grease
+41,7320,Parts for equipment
+42,7330,Parts for vehicles
+43,7340,Tires/tubes
+44,7420,Drugs
+45,7425,Medical/dental supplies
+46,7426,Medical equipment (noncapital)
+47,7450,Photographic
+48,7452,Recreational supplies
+49,7454,Educational/promotional
+50,7456,Identification
+51,7458,Police supplies
+52,7460,Meters
+53,7461,Meter parts
+54,7465,Meter card-seal-graph-tape
+55,7470,Non Stock--Do Not Use
+56,7475,Bedding/linen
+57,7478,Clothing/clothing material
+58,7480,Dietary hardware
+59,7482,Food/ice
+60,7482,Food/Ice
+61,7484,Food/storage for animals
+62,7485,Animal Supplies
+63,7486,Books-library
+64,7500,Office supplies
+65,7501,Packing supplies
+66,7510,Computer supplies
+67,7580,Software
+68,7600,Small tools/minor equipment
+69,7601,Safety equipment
+70,7603,Security equipment
+71,7605,Small electric motors-water ut
+72,7610,Minor computer hardware
+73,7611,Minor communications equipment
+74,7615,Office furnishings
+75,7720,Vendor restock cost
+76,7730,Inventory purchases
+77,7801,Other costs
+78,7805,Taxes-city owned property
+79,7810,Uninventoried freight
+80,7811,Freight
+81,8115,Interest-general
+82,8125,Interest expense -cap.lease
+83,8142,Commercial paper admin exp

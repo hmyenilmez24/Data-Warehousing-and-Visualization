@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<echecklist_warehouse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:noNamespaceSchemaLocation="echeckbook.xsd">
+<Department_Dim>
+<DEPT_ID>1</DEPT_ID>
+<DEPT_CD>11</DEPT_CD>
+<DEPT_NM>Austin Energy</DEPT_NM>
+</Department_Dim>
+<fund_Dim>
+<FUND_ID>1</FUND_ID>
+<FUND_CD>5540</FUND_CD>
+<FUND_NM>Electric Inventory Fund</FUND_NM>
+</fund_Dim>
+<program_Dim>
+<DIV_ID>1</DIV_ID>
+<DIV_CD>9MGT</DIV_CD>
+<DIV_NM>Support Services</DIV_NM>
+</program_Dim>
+<activity_Dim>
+<GP_ID>1</GP_ID>
+<GP_CD>9ADM</GP_CD>
+<GP_NM>Departmental Support Services</GP_NM>
+</activity_Dim>
+<object_Dim>
+<OBJ_ID>1</OBJ_ID>
+<OBJ_CD>7730</OBJ_CD>
+<OBJ_NM>Inventory purchases</OBJ_NM>
+</object_Dim>
+<vend_Dim>
+<VEND_ID>1</VEND_ID>
+<LGL_NM>APFELBAUM INDUSTRIAL INC</LGL_NM>
+<VEND_CUST_CD>APF8321696</VEND_CUST_CD>
+</vend_Dim>
+<calendar_Dim>
+<CAL_ID>1</CAL_ID>
+<CAL_YEAR>2011</CAL_YEAR>
+<CAL_MONTH>05</CAL_MONTH>
+</calendar_Dim>
+<ref_document_Dim>
+<RF_DOC_ID>1</RF_DOC_ID>
+<RF_DOC_CD>CTM</RF_DOC_CD>
+<RFED_ACTG_LN_NO>1</RFED_ACTG_LN_NO>
+<ACTG_LN_DSCR>RELAYS ELECTRONIC</ACTG_LN_DSCR>
+</ref_document_Dim>
+
+<total_amount_Fact>
+<DEPT_ID>1</DEPT_ID>
+<FUND_ID>1</FUND_ID>
+<DIV_ID>1</DIV_ID>
+<GP_ID>1</GP_ID>
+<OBJ_ID>1</OBJ_ID>
+<VEND_ID>1</VEND_ID>
+<CAL_ID>1</CAL_ID>
+<RF_DOC_ID>1</RF_DOC_ID>
+<AMOUNT_TOTAL>5932 </AMOUNT_TOTAL>
+<STS>PAID</STS> 
+<STS_AMOUNT>0</STS_AMOUNT>
+</total_amount_Fact>
+</echecklist_warehouse>

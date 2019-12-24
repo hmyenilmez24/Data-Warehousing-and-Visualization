@@ -1,0 +1,135 @@
+// loads every columns and rows of ACTIVITY_DIM.csv into ACTIVITY_DIM table
+LOAD CSV WITH HEADERS FROM "file:///ACTIVITY_DIM.csv" AS row
+CREATE (n:ACTIVITY_DIM)
+SET n = row;
+
+// creates index on GP_ID
+CREATE INDEX ON :ACTIVITY_DIM(GP_ID);
+
+
+// loads every columns and rows of DEPARTMENT_DIM.csv into DEPARTMENT_DIM table
+LOAD CSV WITH HEADERS FROM "file:///DEPARTMENT_DIM.csv" AS row
+CREATE (n:DEPARTMENT_DIM)
+SET n = row;
+
+// creates index on DEP_ID
+CREATE INDEX ON :DEPARTMENT_DIM(DEP_ID);
+
+
+// loads every columns and rows of CALENDAR_DIM.csv into CALENDAR_DIM table
+LOAD CSV WITH HEADERS FROM "file:///CALENDAR_DIM.csv" AS row
+CREATE (n:CALENDAR_DIM)
+SET n = row;
+
+// creates index on CAL_ID
+CREATE INDEX ON :CALENDAR_DIM(CAL_ID);
+
+
+// loads every columns and rows of FUND_DIM.csv into FUND_DIM table
+LOAD CSV WITH HEADERS FROM "file:///FUND_DIM.csv" AS row
+CREATE (n:FUND_DIM)
+SET n = row;
+
+// creates index on FUND_ID
+CREATE INDEX ON :FUND_DIM(FUND_ID);
+
+
+// loads every columns and rows of PROGRAM_DIM.csv into PROGRAM_DIM table
+LOAD CSV WITH HEADERS FROM "file:///PROGRAM_DIM.csv" AS row
+CREATE (n:PROGRAM_DIM)
+SET n = row;
+
+// creates index on DIV_ID
+CREATE INDEX ON :PROGRAM_DIM(DIV_ID);
+
+
+// loads every columns and rows of REF_DOCUMENT_DIM.csv into REF_DOCUMENT_DIM table
+LOAD CSV WITH HEADERS FROM "file:///REF_DOCUMENT_DIM.csv" AS row
+CREATE (n:REF_DOCUMENT_DIM)
+SET n = row;
+
+// creates index on RF_DOC_ID
+CREATE INDEX ON :REF_DOCUMENT_DIM(RF_DOC_ID);
+
+
+// loads every columns and rows of OBJECT_DIM.csv into OBJECT_DIM table
+LOAD CSV WITH HEADERS FROM "file:///OBJECT_DIM.csv" AS row
+CREATE (n:OBJECT_DIM)
+SET n = row;
+
+// creates index on OBJ_ID
+CREATE INDEX ON :OBJECT_DIM(OBJ_ID);
+
+
+// loads every columns and rows of VEND_DIM.csv into VEND_DIM table
+LOAD CSV WITH HEADERS FROM "file:///VEND_DIM.csv" AS row
+CREATE (n:VEND_DIM)
+SET n = row;
+
+// creates index on VEND_ID
+CREATE INDEX ON :VEND_DIM(VEND_ID);
+
+
+// loads every columns and rows of TOTAL_AMOUNT_FACT1.csv into TOTAL_AMOUNT_FACT1 table
+LOAD CSV WITH HEADERS FROM "file:///TOTAL_AMOUNT_FACT1.csv" AS row
+CREATE (n:TOTAL_AMOUNT_FACT1)
+SET n = row;
+
+
+
+// establishes relationship between DEPARTMENT_DIM and TOTAL_AMOUNT_FACT1 by using their ID’s
+MATCH (a:DEPARTMENT_DIM),(f:TOTAL_AMOUNT_FACT1)
+WHERE a.DEP_ID = f.DEP_ID
+CREATE (a)-[:Department]->(f);
+
+// establishes relationship between CALENDAR_DIM and TOTAL_AMOUNT_FACT1 by using their ID’s
+MATCH (a:CALENDAR_DIM),(f:TOTAL_AMOUNT_FACT1)
+WHERE a.CAL_ID = f.CAL_ID
+CREATE (a)-[:Date]->(f);
+
+// establishes relationship between OBJECT_DIM and TOTAL_AMOUNT_FACT1 by using their ID’s
+MATCH (a:OBJECT_DIM),(f:TOTAL_AMOUNT_FACT1)
+WHERE  a.OBJ_ID = f.OBJ_ID
+CREATE (a)-[:Object]->(f);
+
+// establishes relationship between VEND_DIM and TOTAL_AMOUNT_FACT1 by using their ID’s
+MATCH (a:VEND_DIM),(f:TOTAL_AMOUNT_FACT1)
+WHERE  a.VEND_ID = f.VEND_ID
+CREATE (a)-[:Legal_Name]->(f);
+
+// establishes relationship between REF_DOCUMENT_DIM and TOTAL_AMOUNT_FACT1 by using their ID’s
+MATCH (a:REF_DOCUMENT_DIM),(f:TOTAL_AMOUNT_FACT1)
+WHERE  a.RF_DOC_ID = f.RF_DOC_ID
+CREATE (a)-[:Description]->(f);
+
+// establishes relationship between PROGRAM_DIM and TOTAL_AMOUNT_FACT1 by using their ID’s
+MATCH (a:PROGRAM_DIM),(f:TOTAL_AMOUNT_FACT1)
+WHERE  a.DIV_ID = f.DIV_ID
+CREATE (a)-[:Program_Name]->(f);
+
+// establishes relationship between ACTIVITY_DIM and TOTAL_AMOUNT_FACT1 by using their ID’s
+MATCH (a:ACTIVITY_DIM),(f:TOTAL_AMOUNT_FACT1)
+WHERE  a.GP_ID = f.GP_ID
+CREATE (a)-[:Activity_Name]->(f);
+
+// establishes relationship between FUND_DIM and TOTAL_AMOUNT_FACT1 by using their ID’s
+MATCH (a:FUND_DIM),(f:TOTAL_AMOUNT_FACT1)
+WHERE  a.FUND_ID = f.FUND_ID
+CREATE (a)-[:Fund_Name]->(f);
+
+
+
+// shows big photo of our graph database
+MATCH p=()-->() RETURN p LIMIT 100;
+
+// shows Vendor’s funds as a graph
+MATCH (a:VEND_DIM)-[con:Legal_Name]->(another:TOTAL_AMOUNT_FACT1)
+RETURN a, con, another LIMIT 100
+
+// shows funds that paid in February 2018 as a graph
+MATCH (a:CALENDAR_DIM{CAL_YEAR:"2018", CAL_MONTH:"2"})-[con:Date]->(another:TOTAL_AMOUNT_FACT1)
+RETURN a, con, another 
+
+// shows fund amounts that paid in February 2018 as a list
+MATCH (a:CALENDAR_DIM{CAL_YEAR:"2018", CAL_MONTH:"2"})-[con:Date]->(another:TOTAL_AMOUNT_FACT1)
+RETURN another.AMOUNT_TOTAL

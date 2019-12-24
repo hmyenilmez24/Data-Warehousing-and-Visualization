@@ -1,0 +1,204 @@
+<?xml version="1.0"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<xsd:element name="echecklist_warehouse">
+<xsd:complexType>
+<xsd:sequence>
+<xsd:element ref="Department_Dim" maxOccurs="unbounded" />
+<xsd:element ref="fund_Dim" maxOccurs="unbounded" />
+<xsd:element ref="program_Dim" maxOccurs="unbounded" />
+<xsd:element ref="activity_Dim" maxOccurs="unbounded" />
+<xsd:element ref="object_Dim" maxOccurs="unbounded" />
+<xsd:element ref="vend_Dim" maxOccurs="unbounded" />
+<xsd:element ref="calendar_Dim" maxOccurs="unbounded" />
+<xsd:element ref="ref_document_Dim" maxOccurs="unbounded" />
+<xsd:element ref="total_amount_Fact" maxOccurs="unbounded" />
+</xsd:sequence>
+</xsd:complexType>
+
+<xsd:key name="dept_key">
+<xsd:selector xpath="Department_Dim/DEPT_ID" />
+<xsd:field xpath="." />
+</xsd:key>
+<xsd:key name="fund_key">
+<xsd:selector xpath="fund_Dim/FUND_ID" />
+<xsd:field xpath="." />
+</xsd:key>
+<xsd:key name="div_key">
+<xsd:selector xpath="program_Dim/DIV_ID" />
+<xsd:field xpath="." />
+</xsd:key>
+<xsd:key name="gp_key">
+<xsd:selector xpath="activity_Dim/GP_ID" />
+<xsd:field xpath="." />
+</xsd:key>
+<xsd:key name="obj_key">
+<xsd:selector xpath="object_Dim/OBJ_ID" />
+<xsd:field xpath="." />
+</xsd:key>
+<xsd:key name="vend_key">
+<xsd:selector xpath="vend_Dim/VEND_ID" />
+<xsd:field xpath="." />
+</xsd:key>
+<xsd:key name="cal_key">
+<xsd:selector xpath="calendar_Dim/CAL_ID" />
+<xsd:field xpath="." />
+</xsd:key>
+<xsd:key name="ref_key">
+<xsd:selector xpath="ref_document_Dim/RF_DOC_ID" />
+<xsd:field xpath="." />
+</xsd:key>
+<xsd:keyref name="dept_key_ref" refer="dept_key">
+<xsd:selector xpath="total_amount_Fact/DEPT_ID" />
+<xsd:field xpath="." />
+</xsd:keyref>
+<xsd:keyref name="fund_key_ref" refer="fund_key">
+<xsd:selector xpath="total_amount_Fact/FUND_ID" />
+<xsd:field xpath="." />
+</xsd:keyref>
+<xsd:keyref name="div_key_ref" refer="div_key">
+<xsd:selector xpath="total_amount_Fact/DIV_ID" />
+<xsd:field xpath="." />
+</xsd:keyref>
+<xsd:keyref name="gp_key_ref" refer="gp_key">
+<xsd:selector xpath="total_amount_Fact/GP_ID" />
+<xsd:field xpath="." />
+</xsd:keyref>
+<xsd:keyref name="obj_key_ref" refer="obj_key">
+<xsd:selector xpath="total_amount_Fact/OBJ_ID" />
+<xsd:field xpath="." />
+</xsd:keyref>
+<xsd:keyref name="vend_key_ref" refer="vend_key">
+<xsd:selector xpath="total_amount_Fact/VEND_ID" />
+<xsd:field xpath="." />
+</xsd:keyref>
+<xsd:keyref name="cal_key_ref" refer="cal_key">
+<xsd:selector xpath="total_amount_Fact/CAL_ID" />
+<xsd:field xpath="." />
+</xsd:keyref>
+<xsd:keyref name="ref_key_ref" refer="ref_key">
+<xsd:selector xpath="total_amount_Fact/RF_DOC_ID" />
+<xsd:field xpath="." />
+</xsd:keyref>
+</xsd:element>
+<xsd:element name="Department_Dim">
+<xsd:complexType>
+<xsd:sequence>
+<xsd:element ref="DEPT_ID" />
+<xsd:element ref="DEPT_CD" />
+<xsd:element ref="DEPT_NM" />
+</xsd:sequence>
+</xsd:complexType>
+</xsd:element>
+<xsd:element name="fund_Dim">
+<xsd:complexType>
+<xsd:sequence>
+<xsd:element ref="FUND_ID" />
+<xsd:element ref="FUND_CD" />
+<xsd:element ref="FUND_NM" />
+</xsd:sequence>
+</xsd:complexType>
+</xsd:element>
+<xsd:element name="program_Dim">
+<xsd:complexType>
+<xsd:sequence>
+<xsd:element ref="DIV_ID" />
+<xsd:element ref="DIV_CD" />
+<xsd:element ref="DIV_NM" />
+</xsd:sequence>
+</xsd:complexType>
+</xsd:element>
+<xsd:element name="activity_Dim">
+<xsd:complexType>
+<xsd:sequence>
+<xsd:element ref="GP_ID" />
+<xsd:element ref="GP_CD" />
+<xsd:element ref="GP_NM" />
+</xsd:sequence>
+</xsd:complexType>
+</xsd:element>
+<xsd:element name="object_Dim">
+<xsd:complexType>
+<xsd:sequence>
+<xsd:element ref="OBJ_ID" />
+<xsd:element ref="OBJ_CD" />
+<xsd:element ref="OBJ_NM" />
+</xsd:sequence>
+</xsd:complexType>
+</xsd:element>
+<xsd:element name="vend_Dim">
+<xsd:complexType>
+<xsd:sequence>
+<xsd:element ref="VEND_ID" />
+<xsd:element ref="LGL_NM" />
+<xsd:element ref="VEND_CUST_CD" />
+</xsd:sequence>
+</xsd:complexType>
+</xsd:element>
+<xsd:element name="calendar_Dim">
+<xsd:complexType>
+<xsd:sequence>
+<xsd:element ref="CAL_ID" />
+<xsd:element ref="CAL_YEAR" />
+<xsd:element ref="CAL_MONTH" />
+</xsd:sequence>
+</xsd:complexType>
+</xsd:element>
+<xsd:element name="ref_document_Dim">
+<xsd:complexType>
+<xsd:sequence>
+<xsd:element ref="RF_DOC_ID" />
+<xsd:element ref="RF_DOC_CD" />
+<xsd:element ref="RFED_ACTG_LN_NO" />
+<xsd:element ref="ACTG_LN_DSCR" />
+</xsd:sequence>
+</xsd:complexType>
+</xsd:element>
+<xsd:element name="total_amount_Fact">
+<xsd:complexType>
+<xsd:all>
+<xsd:element ref="DEPT_ID" />
+<xsd:element ref="FUND_ID" />
+<xsd:element ref="DIV_ID" />
+<xsd:element ref="GP_ID" />
+<xsd:element ref="OBJ_ID" />
+<xsd:element ref="VEND_ID" />
+<xsd:element ref="CAL_ID" />
+<xsd:element ref="RF_DOC_ID" />
+<xsd:element ref="AMOUNT_TOTAL" />
+<xsd:element ref="STS" />
+<xsd:element ref="STS_AMOUNT" />
+</xsd:all>
+</xsd:complexType>
+</xsd:element>
+
+<xsd:element name="DEPT_ID" type="xsd:int" />
+<xsd:element name="DEPT_CD" type="xsd:string" />
+<xsd:element name="DEPT_NM" type="xsd:string" />
+<xsd:element name="FUND_ID" type="xsd:int" />
+<xsd:element name="FUND_CD" type="xsd:string" />
+<xsd:element name="FUND_NM" type="xsd:string" />
+<xsd:element name="DIV_ID" type="xsd:int" />
+<xsd:element name="DIV_CD" type="xsd:string" />
+<xsd:element name="DIV_NM" type="xsd:string" />
+<xsd:element name="GP_ID" type="xsd:int" />
+<xsd:element name="GP_CD" type="xsd:string" />
+<xsd:element name="GP_NM" type="xsd:string" />
+<xsd:element name="OBJ_ID" type="xsd:int" />
+<xsd:element name="OBJ_CD" type="xsd:string" />
+<xsd:element name="OBJ_NM" type="xsd:string" />
+<xsd:element name="VEND_ID" type="xsd:int" />
+<xsd:element name="LGL_NM" type="xsd:string" />
+<xsd:element name="VEND_CUST_CD" type="xsd:string" />
+<xsd:element name="CAL_ID" type="xsd:int" />
+<xsd:element name="CAL_YEAR" type="xsd:string" />
+<xsd:element name="CAL_MONTH" type="xsd:string" />
+<xsd:element name="RF_DOC_ID" type="xsd:int" />
+<xsd:element name="RF_DOC_CD" type="xsd:string" />
+<xsd:element name="RFED_ACTG_LN_NO" type="xsd:string" />
+<xsd:element name="ACTG_LN_DSCR" type="xsd:string" />
+
+<xsd:element name="AMOUNT_TOTAL" type="xsd:int" />
+<xsd:element name="STS" type="xsd:string" />
+<xsd:element name="STS_AMOUNT" type="xsd:float" />
+
+</xsd:schema>
